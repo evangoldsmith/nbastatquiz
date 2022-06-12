@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.link {
+  color:#ff8811;
+}
+
+
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-size: 100%;
+  color: rgb(237, 234, 234);
+}
+
+.Quiz {
+  position: relative;
+  display: flex;
+  border: solid;
+  justify-content: center;
+  width: 100vmax;
+  height: 70%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+.Nav-bar {
+  position: relative;
+  background: rgb(255, 255, 255);
+  display: flex;
+  height: 90px;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 180%;
+  width: 100vmax;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+.Title {
+  margin-right: auto;
+  padding-right: 26rem;
+  color: #ff8811;
+  letter-spacing: 3px;
+}
+
+.Nav-list {
+  letter-spacing: 2px;
+  color: black;
+  display: flex;
+  list-style: none;
+}
+
+.Nav-list > li {
+  font-size: 24px;
+  padding: 35px;
+  transition: all .6s ease;
+  cursor: pointer;
+}
+
+.Nav-list :hover{
+  color:#ff8811;
+  -webkit-transform: scale(1.1);
+  transition: all .6s ease;
+}
+
+
+.App-link {
+  color: #ff8811;
+}
+
+.webFooter {
+  color: black;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.Message {
+  color: black;
+  display: grid;
+  text-align: center;
+  padding-top: 2rem;
+  letter-spacing: 2px;
+  font-size: larger;
+  animation: fadein .7s;
+}
+
+.Message > p {
+  font-size: 120%;
+}
+
+.Message > small {
+  padding-bottom: 30px;
+}
+
+.Button {
+  margin-top: 80px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  background-color: white;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  width: 15em;
+  height: 4em;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.Button-correct {
+  margin-top: 80px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  background-color: rgb(10, 160, 10);
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  width: 15em;
+  height: 4em;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.Button-incorrect {
+  margin-top: 80px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  background-color: rgb(240, 59, 14);
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  width: 15em;
+  height: 4em;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #ff8811;
+  transition: 0.3s;
+  -webkit-transform: scale(1.08);
+}
+
+.Stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dataBlock {
+  border: black solid;
+  border-radius: 7px;
+  margin-right: 20px;
+  padding: 20px;
+  animation: fadein .7s;
+}
+
+.dataBlock > strong {
+  color: #ff8811;
+  animation: fadein .1s
+}
+
+.Answers {
+  display: flex;
+  justify-content: center;
+  padding-left: 7px;  
+  animation: fadein .7s;
+}
+
+
+.Score {
+  color: black;
+  display: relative;
+  padding-top: 30px;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.Fraction {
+  color: #ff8811;
+  font-size: 28px;
+  letter-spacing: 7px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.PlayAgain {
+  justify-content: center;
+  align-items: center;
+  color: black;
+  display: grid;
+  height: 30rem;
+}
+
+.GameScore {
+  display: grid;
+  border: solid;
+  position: relative;
+  border-radius: 5px;
+  height: 23rem;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fadein .7s;
+}
+
+.GameScore > h2 {
+  color:#ff8811;
+  font-size: 30px;
+}
+
+.GameScore > button { 
+  margin-left: 20px;
+}
+
+
+@keyframes fadein {
+  0% {
+  opacity:0;
+  }
+  50%{
+  opacity:0.5;
+  }
+  100% {
+  opacity:1;
+  }
+ }
