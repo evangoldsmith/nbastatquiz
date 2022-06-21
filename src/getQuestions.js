@@ -3,7 +3,7 @@ export async function getQuestions() {
     function getRand(max) {
         return  Math.floor(Math.random() * max);
     }
-    const url = 'https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2021?key=86e988b730cb4d58b34f87ca82f5b7f3';
+    const url = 'https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2022?key=86e988b730cb4d58b34f87ca82f5b7f3';
     const response = await fetch(url);
     var data = await response.json();        
     var questions = [];
