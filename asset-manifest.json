@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nbastatquiz/static/css/main.90e100ef.css",
+    "main.js": "/nbastatquiz/static/js/main.8ed1d9f0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/nbastatquiz/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ball-logo.png": "/nbastatquiz/static/media/ball-logo.d4c7db5ef26b5f9c0cdf.png",
+    "index.html": "/nbastatquiz/index.html",
+    "main.90e100ef.css.map": "/nbastatquiz/static/css/main.90e100ef.css.map",
+    "main.8ed1d9f0.js.map": "/nbastatquiz/static/js/main.8ed1d9f0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/nbastatquiz/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90e100ef.css",
+    "static/js/main.8ed1d9f0.js"
+  ]
+}
