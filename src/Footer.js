@@ -14,7 +14,7 @@ export default function Footer() {
                 Learn React
                 </a>
                 </div>
-                <small>Stats from <a href="https://sportsdata.io" className="link">sportsdata.io</a> (adjusted 5-10%) © 2022 Goldsmith Development. All rights reserved.</small>
+                <small>testStats from <a href="https://sportsdata.io" className="link">sportsdata.io</a> (adjusted 5-10%) © 2022 Goldsmith Development. All rights reserved.</small>
             </footer>
         </div>
     )
